@@ -136,7 +136,7 @@ button {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: 30rem 30rem;
   gap: 1.87rem;
 }
 .grid-container img {
@@ -348,7 +348,7 @@ main {
   content: "";
   background-image: url(./assets/images/shared/pattern-square.svg);
   background-repeat: no-repeat;
-  top: 47%;
+  top: 50%;
   right: 16.8rem;
   width: 15.9375rem;
   height: 15rem;
