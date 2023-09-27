@@ -435,12 +435,17 @@ main {
   }
 }
 
+.bottom-container h3 {
+  max-width: 12.8rem;
+}
+@media (max-width: 960px) {
+  .bottom-container h3 {
+    max-width: 12.8rem;
+  }
+}
 @media (max-width: 960px) {
   .bottom-container {
     max-width: 17.5625rem;
-  }
-  .bottom-container h3 {
-    max-width: 12.8rem;
   }
 }
 @media (max-width: 690px) {
