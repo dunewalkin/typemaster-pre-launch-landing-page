@@ -1,18 +1,27 @@
 @font-face {
   font-family: "Barlow";
-  src: url(./assets/fonts/Barlow-Medium.ttf);
+  src:   local("Barlow Medium"),
+         url(assets/fonts/barlow-medium-webfont.woff2) format('woff2'),
+         url(assets/fonts/barlow-medium-webfont.woff) format('woff');
   font-weight: 500;
 }
+
 @font-face {
   font-family: "Barlow";
-  src: url(./assets/fonts/Barlow-Bold.ttf);
+  src:   local("Barlow Bold"),
+         url(assets/fonts/barlow-bold-webfont.woff2) format('woff2'),
+         url(assets/fonts/barlow-bold-webfont.woff) format('woff');
   font-weight: 700;
 }
+
 @font-face {
   font-family: "Barlow";
-  src: url(./assets/fonts/Barlow-Black.ttf);
+  src:   local("Barlow Black"),
+         url(assets/fonts/barlow-black-webfont.woff2) format('woff2'),
+         url(assets/fonts/barlow-black-webfont.woff2) format('woff');
   font-weight: 900;
 }
+
 :root {
   --clr-primary-1: 220, 50%, 17%;
   --clr-primary-2: 0, 0%, 100%;
